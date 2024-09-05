@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wclassic_devkit"
+version = "0.0.1"
+authors = [
+  { name="MF366", email="real_mf366@yahoo.com" },
+]
+description = "Interact with WriterClassic with ease."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MF366-Coding/WriterClassicDevKit"
+"Bug Tracker" = "https://github.com/MF366-Coding/WriterClassicDevKit/issues"
