@@ -96,4 +96,16 @@ class Project:
         self._icon = icon
         self.__project_id = proj_id
 
+    @property
+    def name(self) -> str:
+        return self._name
+
+    @property
+    def description(self) -> str:
+        return self._description
+
+    @property
+    def permissions(self) -> Permissions:
+        return self._permissions
+
 
